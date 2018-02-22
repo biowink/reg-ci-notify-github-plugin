@@ -1,7 +1,6 @@
 {
   "name": "@clue/reg-ci-notify-github-plugin",
   "version": "0.0.0",
-  "private": true,
   "main": "dist/index.js",
   "author": "Jesse Pinho <jesse@jessepinho.com>",
   "license": "UNLICENSED",
