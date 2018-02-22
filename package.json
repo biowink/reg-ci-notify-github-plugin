@@ -18,6 +18,7 @@
     "url": "https://github.com/biowink/reg-ci-notify-github-plugin"
   },
   "devDependencies": {
+    "@types/inquirer": "^0.0.36",
     "typescript": "^2.7.2"
   },
   "dependencies": {
