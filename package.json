@@ -1,0 +1,28 @@
+{
+  "name": "@clue/reg-ci-notify-github-plugin",
+  "version": "0.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "author": "Jesse Pinho <jesse@jessepinho.com>",
+  "license": "UNLICENSED",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "prepublishOnly": "yarn run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/biowink/reg-ci-notify-github-plugin"
+  },
+  "devDependencies": {
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "@octokit/rest": "^14.0.9",
+    "@types/node": "^9.4.6",
+    "reg-suit-interface": "^0.7.0"
+  }
+}
